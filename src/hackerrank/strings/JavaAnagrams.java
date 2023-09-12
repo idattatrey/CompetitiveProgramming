@@ -16,7 +16,7 @@ public class JavaAnagrams {
             }
             a = a.trim();
             b = b.trim();
-            return a.length() == b.length() && b.length() == 0;
+            return a.length() == b.length() && b.isEmpty();
         } else {
             return false;
         }
